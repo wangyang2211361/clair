@@ -1,6 +1,6 @@
 # Production users
 
-This document tracks people and use cases for Clair in production. [Join the community](https://github.com/coreos/Clair/), and help us keep the list up-to-date.
+This document tracks people and use cases for Clair in production. [Join the community](https://github.com/wangyang2211361/Clair/), and help us keep the list up-to-date.
 
 ## [Quay.io](https://quay.io/)
 

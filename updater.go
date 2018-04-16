@@ -24,10 +24,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/vulnmdsrc"
-	"github.com/coreos/clair/ext/vulnsrc"
-	"github.com/coreos/clair/pkg/stopper"
+	"github.com/wangyang2211361/clair/database"
+	"github.com/wangyang2211361/clair/ext/vulnmdsrc"
+	"github.com/wangyang2211361/clair/ext/vulnsrc"
+	"github.com/wangyang2211361/clair/pkg/stopper"
 )
 
 const (

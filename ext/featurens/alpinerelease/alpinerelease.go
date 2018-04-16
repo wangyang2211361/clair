@@ -22,10 +22,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/featurens"
-	"github.com/coreos/clair/ext/versionfmt/dpkg"
-	"github.com/coreos/clair/pkg/tarutil"
+	"github.com/wangyang2211361/clair/database"
+	"github.com/wangyang2211361/clair/ext/featurens"
+	"github.com/wangyang2211361/clair/ext/versionfmt/dpkg"
+	"github.com/wangyang2211361/clair/pkg/tarutil"
 )
 
 const (

@@ -3,7 +3,7 @@
 [![Build Status](https://api.travis-ci.org/coreos/clair.svg?branch=master "Build Status")](https://travis-ci.org/coreos/clair)
 [![Docker Repository on Quay](https://quay.io/repository/coreos/clair/status "Docker Repository on Quay")](https://quay.io/repository/coreos/clair)
 [![Go Report Card](https://goreportcard.com/badge/coreos/clair "Go Report Card")](https://goreportcard.com/report/coreos/clair)
-[![GoDoc](https://godoc.org/github.com/coreos/clair?status.svg "GoDoc")](https://godoc.org/github.com/coreos/clair)
+[![GoDoc](https://godoc.org/github.com/wangyang2211361/clair?status.svg "GoDoc")](https://godoc.org/github.com/wangyang2211361/clair)
 [![IRC Channel](https://img.shields.io/badge/freenode-%23clair-blue.svg "IRC Channel")](http://webchat.freenode.net/?channels=clair)
 
 **Note**: The `master` branch may be in an *unstable or even broken state* during development.
@@ -23,7 +23,7 @@ Thus, the project was named `Clair` after the French term which translates to *c
 
 [appc]: https://github.com/appc/spec
 [docker]: https://github.com/docker/docker/blob/master/image/spec/v1.2.md
-[releases]: https://github.com/coreos/clair/releases
+[releases]: https://github.com/wangyang2211361/clair/releases
 
 ## When would I use Clair?
 
@@ -49,7 +49,7 @@ Clair is officially packaged and released as a container.
 * [quay.io/coreos/clair-git] - Development releases
 
 [quay.io/coreos/clair]: https://quay.io/repository/coreos/clair
-[jwtproxy]: https://github.com/coreos/jwtproxy
+[jwtproxy]: https://github.com/wangyang2211361/jwtproxy
 [quay.io/coreos/clair-jwt]: https://quay.io/repository/coreos/clair-jwt
 [quay.io/coreos/clair-git]: https://quay.io/repository/coreos/clair-git
 
@@ -85,7 +85,7 @@ If you don't have a local Kubernetes cluster already, check out [minikube].
 [minikube]: https://github.com/kubernetes/minikube
 
 ```
-git clone https://github.com/coreos/clair
+git clone https://github.com/wangyang2211361/clair
 cd clair/contrib/k8s
 kubectl create secret generic clairsecret --from-file=./config.yaml
 kubectl create -f clair-kubernetes.yaml
@@ -132,8 +132,8 @@ In addition, Clair requires some additional binaries be installed on the system 
 [$PATH]: https://en.wikipedia.org/wiki/PATH_(variable)
 
 ```sh
-$ go get github.com/coreos/clair
-$ go install github.com/coreos/clair/cmd/clair
+$ go get github.com/wangyang2211361/clair
+$ go install github.com/wangyang2211361/clair/cmd/clair
 $ $EDITOR config.yaml # Add the URI for your postgres database
 $ ./$GOPATH/bin/clair -config=config.yaml
 ```
@@ -144,8 +144,8 @@ $ ./$GOPATH/bin/clair -config=config.yaml
 
 You can find [production users] and third party [integrations] documented in their respective pages of the local documentation.
 
-[production users]: https://github.com/coreos/clair/blob/master/Documentation/production-users.md
-[integrations]: https://github.com/coreos/clair/blob/master/Documentation/integrations.md
+[production users]: https://github.com/wangyang2211361/clair/blob/master/Documentation/production-users.md
+[integrations]: https://github.com/wangyang2211361/clair/blob/master/Documentation/integrations.md
 
 ### What do you mean by static analysis?
 
@@ -214,7 +214,7 @@ To expose the new behavior, unqualified imports to the package must be added in 
 
 [database/sql]: https://godoc.org/database/sql
 [init()]: https://golang.org/doc/effective_go.html#init
-[main.go]: https://github.com/coreos/clair/blob/master/cmd/clair/main.go
+[main.go]: https://github.com/wangyang2211361/clair/blob/master/cmd/clair/main.go
 
 ### Are there any public presentations on Clair?
 

@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;clair&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/mygo/src/beego_api" />
+      <root url="file://$USER_HOME$/mygo/src/github.com" />
+      <root url="file://$USER_HOME$/mygo/src/rmapi" />
+      <root url="file://$USER_HOME$/mygo/src/apiProtect" />
+      <root url="file://$USER_HOME$/mygo/src/quickstart" />
+      <root url="file://$USER_HOME$/mygo/src/buildregistry-bak" />
+      <root url="file://$USER_HOME$/mygo/src/jeedev-api" />
+      <root url="file://$USER_HOME$/mygo/src/testApi" />
+      <root url="file://$USER_HOME$/mygo/src/orm" />
+      <root url="file://$USER_HOME$/mygo/src/golang.org" />
+      <root url="file://$USER_HOME$/mygo/src/.idea" />
+      <root url="file://$USER_HOME$/mygo/src/samples" />
+      <root url="file://$USER_HOME$/mygo/src/buildjeedev" />
+      <root url="file://$USER_HOME$/mygo/src/registrytest" />
+      <root url="file://$USER_HOME$/mygo/src/go-agent-daemon" />
+      <root url="file://$USER_HOME$/mygo/src/buildregistry" />
+      <root url="file://$USER_HOME$/mygo/src/Untitled Folder" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/mygo/src/beego_api" />
+      <root url="file://$USER_HOME$/mygo/src/github.com" />
+      <root url="file://$USER_HOME$/mygo/src/rmapi" />
+      <root url="file://$USER_HOME$/mygo/src/apiProtect" />
+      <root url="file://$USER_HOME$/mygo/src/quickstart" />
+      <root url="file://$USER_HOME$/mygo/src/buildregistry-bak" />
+      <root url="file://$USER_HOME$/mygo/src/jeedev-api" />
+      <root url="file://$USER_HOME$/mygo/src/testApi" />
+      <root url="file://$USER_HOME$/mygo/src/orm" />
+      <root url="file://$USER_HOME$/mygo/src/golang.org" />
+      <root url="file://$USER_HOME$/mygo/src/.idea" />
+      <root url="file://$USER_HOME$/mygo/src/samples" />
+      <root url="file://$USER_HOME$/mygo/src/buildjeedev" />
+      <root url="file://$USER_HOME$/mygo/src/registrytest" />
+      <root url="file://$USER_HOME$/mygo/src/go-agent-daemon" />
+      <root url="file://$USER_HOME$/mygo/src/buildregistry" />
+      <root url="file://$USER_HOME$/mygo/src/Untitled Folder" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>

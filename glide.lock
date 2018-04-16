@@ -5,7 +5,7 @@ imports:
   version: 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
   subpackages:
   - quantile
-- name: github.com/coreos/pkg
+- name: github.com/wangyang2211361/pkg
   version: 3ac0863d7acf3bc44daf49afef8919af12f704ef
   subpackages:
   - timeutil

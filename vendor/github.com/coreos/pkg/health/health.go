@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/coreos/pkg/httputil"
+	"github.com/wangyang2211361/pkg/httputil"
 )
 
 // Checkables should return nil when the thing they are checking is healthy, and an error otherwise.

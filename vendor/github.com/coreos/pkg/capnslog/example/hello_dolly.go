@@ -18,19 +18,19 @@ import (
 	"flag"
 	oldlog "log"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/wangyang2211361/pkg/capnslog"
 )
 
 var logLevel = capnslog.INFO
-var log = capnslog.NewPackageLogger("github.com/coreos/pkg/capnslog/cmd", "main")
-var dlog = capnslog.NewPackageLogger("github.com/coreos/pkg/capnslog/cmd", "dolly")
+var log = capnslog.NewPackageLogger("github.com/wangyang2211361/pkg/capnslog/cmd", "main")
+var dlog = capnslog.NewPackageLogger("github.com/wangyang2211361/pkg/capnslog/cmd", "dolly")
 
 func init() {
 	flag.Var(&logLevel, "log-level", "Global log level.")
 }
 
 func main() {
-	rl := capnslog.MustRepoLogger("github.com/coreos/pkg/capnslog/cmd")
+	rl := capnslog.MustRepoLogger("github.com/wangyang2211361/pkg/capnslog/cmd")
 
 	// We can parse the log level configs from the command line
 	flag.Parse()

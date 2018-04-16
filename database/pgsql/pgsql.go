@@ -31,9 +31,9 @@ import (
 	"github.com/remind101/migrate"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/database/pgsql/migrations"
-	"github.com/coreos/clair/pkg/commonerr"
+	"github.com/wangyang2211361/clair/database"
+	"github.com/wangyang2211361/clair/database/pgsql/migrations"
+	"github.com/wangyang2211361/clair/pkg/commonerr"
 )
 
 var (

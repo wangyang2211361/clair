@@ -7,5 +7,5 @@ Users implement their `health.Checkable` types, and create a `health.Checker`, f
 
 ### Documentation
 
-For more details, visit the docs on [gopkgdoc](http://godoc.org/github.com/coreos/pkg/health)
+For more details, visit the docs on [gopkgdoc](http://godoc.org/github.com/wangyang2211361/pkg/health)
 

@@ -21,15 +21,15 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/versionfmt/dpkg"
-	"github.com/coreos/clair/pkg/commonerr"
+	"github.com/wangyang2211361/clair/database"
+	"github.com/wangyang2211361/clair/ext/versionfmt/dpkg"
+	"github.com/wangyang2211361/clair/pkg/commonerr"
 
 	// Register the required detectors.
-	_ "github.com/coreos/clair/ext/featurefmt/dpkg"
-	_ "github.com/coreos/clair/ext/featurens/aptsources"
-	_ "github.com/coreos/clair/ext/featurens/osrelease"
-	_ "github.com/coreos/clair/ext/imagefmt/docker"
+	_ "github.com/wangyang2211361/clair/ext/featurefmt/dpkg"
+	_ "github.com/wangyang2211361/clair/ext/featurens/aptsources"
+	_ "github.com/wangyang2211361/clair/ext/featurens/osrelease"
+	_ "github.com/wangyang2211361/clair/ext/imagefmt/docker"
 )
 
 type mockDatastore struct {

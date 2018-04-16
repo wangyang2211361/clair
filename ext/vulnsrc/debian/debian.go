@@ -27,11 +27,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/versionfmt"
-	"github.com/coreos/clair/ext/versionfmt/dpkg"
-	"github.com/coreos/clair/ext/vulnsrc"
-	"github.com/coreos/clair/pkg/commonerr"
+	"github.com/wangyang2211361/clair/database"
+	"github.com/wangyang2211361/clair/ext/versionfmt"
+	"github.com/wangyang2211361/clair/ext/versionfmt/dpkg"
+	"github.com/wangyang2211361/clair/ext/vulnsrc"
+	"github.com/wangyang2211361/clair/pkg/commonerr"
 )
 
 const (

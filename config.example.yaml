@@ -44,7 +44,7 @@ clair:
 
     # Optional PKI configuration
     # If you want to easily generate client certificates and CAs, try the following projects:
-    # https://github.com/coreos/etcd-ca
+    # https://github.com/wangyang2211361/etcd-ca
     # https://github.com/cloudflare/cfssl
     servername:
     cafile:
@@ -70,7 +70,7 @@ clair:
       # Optional PKI configuration
       # If you want to easily generate client certificates and CAs, try the following projects:
       # https://github.com/cloudflare/cfssl
-      # https://github.com/coreos/etcd-ca
+      # https://github.com/wangyang2211361/etcd-ca
       servername:
       cafile:
       keyfile:

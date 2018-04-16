@@ -1,6 +1,6 @@
-package: github.com/coreos/clair
+package: github.com/wangyang2211361/clair
 import:
-- package: github.com/coreos/pkg
+- package: github.com/wangyang2211361/pkg
   version: ^3.0.0
   subpackages:
   - timeutil

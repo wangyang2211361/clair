@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/coreos/clair/database"
+	"github.com/wangyang2211361/clair/database"
 )
 
 var (

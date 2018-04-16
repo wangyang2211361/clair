@@ -1,16 +1,16 @@
 [
 	{
-		"project": "github.com/coreos/clair",
+		"project": "github.com/wangyang2211361/clair",
 		"license": "Apache License 2.0",
 		"confidence": 1
 	},
 	{
-		"project": "github.com/coreos/go-systemd/journal",
+		"project": "github.com/wangyang2211361/go-systemd/journal",
 		"license": "Apache License 2.0",
 		"confidence": 0.997
 	},
 	{
-		"project": "github.com/coreos/pkg",
+		"project": "github.com/wangyang2211361/pkg",
 		"license": "Apache License 2.0",
 		"confidence": 1
 	},

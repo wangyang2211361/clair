@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/coreos/pkg/httputil"
+	"github.com/wangyang2211361/pkg/httputil"
 )
 
 type boolChecker bool

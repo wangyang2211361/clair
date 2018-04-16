@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/coreos/go-systemd/journal"
+	"github.com/wangyang2211361/go-systemd/journal"
 )
 
 func NewJournaldFormatter() (Formatter, error) {
